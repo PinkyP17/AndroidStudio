@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+ <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -20,17 +20,7 @@
          app:layout_constraintHorizontal_bias="0.494"
          app:layout_constraintStart_toStartOf="parent"
          app:layout_constraintTop_toTopOf="parent"
-         app:layout_constraintVertical_bias="0.29" />
-
-     <RatingBar
-         android:id="@+id/RateBarFeedback"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_marginTop="248dp"
-         app:layout_constraintEnd_toEndOf="parent"
-         app:layout_constraintHorizontal_bias="0.497"
-         app:layout_constraintStart_toStartOf="parent"
-         app:layout_constraintTop_toTopOf="parent" />
+         app:layout_constraintVertical_bias="0.342" />
 
      <EditText
          android:id="@+id/ETFeedback"
@@ -61,10 +51,20 @@
          app:layout_constraintHorizontal_bias="0.498"
          app:layout_constraintStart_toStartOf="parent" />
 
+     <RatingBar
+         android:id="@+id/RateBarFeedback"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="284dp"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.497"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
+
      <EditText
          android:id="@+id/TVRating"
-         android:layout_width="226dp"
-         android:layout_height="54dp"
+         android:layout_width="225dp"
+         android:layout_height="55dp"
          android:layout_marginTop="20dp"
          android:layout_marginBottom="8dp"
          android:backgroundTint="@android:color/transparent"
@@ -73,10 +73,10 @@
          android:text="Name"
          app:layout_constraintBottom_toTopOf="@+id/ETFeedback"
          app:layout_constraintEnd_toEndOf="parent"
-         app:layout_constraintHorizontal_bias="0.351"
+         app:layout_constraintHorizontal_bias="0.397"
          app:layout_constraintStart_toStartOf="parent"
          app:layout_constraintTop_toBottomOf="@+id/RateBarFeedback"
-         app:layout_constraintVertical_bias="0.464" />
+         app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
